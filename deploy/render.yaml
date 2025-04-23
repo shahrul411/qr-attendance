@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: qr-attendance-api
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    envVars:
+      - key: MONGODB_URI
+        value: "your_mongodb_atlas_uri"
+      - key: PORT
+        value: "10000"
+    autoDeploy: true

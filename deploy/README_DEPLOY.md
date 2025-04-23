@@ -1,0 +1,1 @@
+# Panduan deploy sistem kehadiran QR (Render + Vercel)
